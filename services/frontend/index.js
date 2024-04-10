@@ -87,4 +87,5 @@ document.addEventListener('DOMContentLoaded', function () {
             swal('Erro', 'Erro ao listar os produtos', 'error');
             console.error(err);
         });
+    //
 });
