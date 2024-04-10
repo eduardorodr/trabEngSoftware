@@ -67,6 +67,23 @@ body {
     box-shadow: 0 10px 16px rgba(0, 0, 0, 0.13), 0 6px 6px rgba(0, 0, 0, 0.19);
 }
 
+.search-book{
+    position: fixed;
+    margin-left: 1%;
+    margin-top: -10px;
+    z-index: 100;
+    
+}
+
+.search-field{
+    border-radius: 5px;
+    height: 50px;
+    width: 400px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+
 @media (min-width: 800px) {
     .book-meta {
         min-height: 250px;
